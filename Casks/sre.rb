@@ -3,7 +3,7 @@ cask "sre" do
   name "sre"
   desc "SRE workflow automation CLI for Git worktrees, Tmux, and Obsidian integration"
   homepage "https://github.com/thoreinstein/sre"
-  version "0.2.0"
+  version "0.3.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -15,12 +15,12 @@ cask "sre" do
     on_intel do
       url "https://github.com/thoreinstein/sre/releases/download/v#{version}/sre_#{version}_darwin_amd64.tar.gz",
         verified: "github.com/thoreinstein/sre/"
-      sha256 "0bc2324a6ab8d29d3bdd255c7faf948e5b7360784988ade9cc77c5b4813398bf"
+      sha256 "ab30e5ed4dc7227c3c66b98e03d32f6c38f1aba3ecdea5dc34dd179e1d7ca19e"
     end
     on_arm do
       url "https://github.com/thoreinstein/sre/releases/download/v#{version}/sre_#{version}_darwin_arm64.tar.gz",
         verified: "github.com/thoreinstein/sre/"
-      sha256 "d07e36a6e73826fec7491d97b260007ac99f9b0869fc35922c010fc6d2fae2e2"
+      sha256 "39883f3a80f3327e7c8bbabe35470eddc4eb1d42c013cd665288d8c4b6ece8c9"
     end
   end
 
@@ -28,12 +28,12 @@ cask "sre" do
     on_intel do
       url "https://github.com/thoreinstein/sre/releases/download/v#{version}/sre_#{version}_linux_amd64.tar.gz",
         verified: "github.com/thoreinstein/sre/"
-      sha256 "a7159b8661c796b5925ccb5b0712b90caff5a4d6d6ba90e15ad6c7fede0874b2"
+      sha256 "6b616af67987f07a7e6abaf8a4152732ea41d3f8c7b1d745b9c6bad70b40f30b"
     end
     on_arm do
       url "https://github.com/thoreinstein/sre/releases/download/v#{version}/sre_#{version}_linux_arm64.tar.gz",
         verified: "github.com/thoreinstein/sre/"
-      sha256 "be989cb10165436b913654612987ec8a1af0a3c356ac89b1fb10909f63834023"
+      sha256 "b8f31a5d89f1fea331707eb2163e427e5709d45f29785e1ae2dcdf5278849f45"
     end
   end
 
