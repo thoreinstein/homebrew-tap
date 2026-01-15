@@ -3,7 +3,7 @@ cask "rig" do
   name "rig"
   desc "Developer workflow automation CLI for Git worktrees, Tmux, and Obsidian integration"
   homepage "https://github.com/thoreinstein/rig"
-  version "0.7.1"
+  version "0.8.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -15,12 +15,12 @@ cask "rig" do
     on_intel do
       url "https://github.com/thoreinstein/rig/releases/download/v#{version}/rig_#{version}_darwin_amd64.tar.gz",
         verified: "github.com/thoreinstein/rig/"
-      sha256 "80ecb20b255481b064338cef69e355c9a4b9e58eb569a85dd9c22d10768ecae6"
+      sha256 "6d8009718a7db350407b94240595f1eac1d0fdb0c2a8cc247105a5ed25b51362"
     end
     on_arm do
       url "https://github.com/thoreinstein/rig/releases/download/v#{version}/rig_#{version}_darwin_arm64.tar.gz",
         verified: "github.com/thoreinstein/rig/"
-      sha256 "3e899375a81c36df7a5f43de26dce23e50fa33db846850f6c42def76a8868b6a"
+      sha256 "754754ca3b075f07e9156d99696d6e1d847110efc052ddbfa9641e4651f56c03"
     end
   end
 
@@ -28,12 +28,12 @@ cask "rig" do
     on_intel do
       url "https://github.com/thoreinstein/rig/releases/download/v#{version}/rig_#{version}_linux_amd64.tar.gz",
         verified: "github.com/thoreinstein/rig/"
-      sha256 "6fd35ddfd7e356d6d6d7822dfb18f77e1a9b7d34ede2af8f48a766acf00ffcda"
+      sha256 "b7d1027df0ed672969c13944c240e639c60faf25c5cea89a9c99f71d116e8874"
     end
     on_arm do
       url "https://github.com/thoreinstein/rig/releases/download/v#{version}/rig_#{version}_linux_arm64.tar.gz",
         verified: "github.com/thoreinstein/rig/"
-      sha256 "f32b300ded583bff51c7ffd99967cb3cad88cc48b27dd57fb2040ba58ad111ab"
+      sha256 "2c4b2fba0016548e59fe4e12867516f8bde3e57dfd3735b75bee96594ccbf402"
     end
   end
 
