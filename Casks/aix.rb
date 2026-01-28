@@ -3,7 +3,7 @@ cask "aix" do
   name "aix"
   desc "A tool for managing, creating and sharing agent skills, commands and hooks"
   homepage "https://github.com/thoreinstein/aix"
-  version "0.6.0"
+  version "0.6.1"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "aix" do
   on_macos do
     on_intel do
       url "https://github.com/thoreinstein/aix/releases/download/v#{version}/aix_#{version}_darwin_amd64.tar.gz"
-      sha256 "29dbf4d91793c7308fe991874816bf2e8c6ae1c9658f54672814da878e39b8fc"
+      sha256 "84e9f547073c1149fa6246d10f0ff0df8abc0efc64a34fca79263a06383a4c67"
     end
     on_arm do
       url "https://github.com/thoreinstein/aix/releases/download/v#{version}/aix_#{version}_darwin_arm64.tar.gz"
-      sha256 "ab5ada5edda00a423a2ed76a221bce5c1b86fd8c7ad60ccbb5a7824644e60b13"
+      sha256 "709ed92e641c328183372b8e0d061674e89c7d57d832a013ad1c4bc136e91ab5"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/thoreinstein/aix/releases/download/v#{version}/aix_#{version}_linux_amd64.tar.gz"
-      sha256 "221d5891d8b8dd0fbf328dd98c514395504381b3ad101faf0b190ab0e4c5aaea"
+      sha256 "50bfc6ec87160fc903c57b0563565ac2b246321ff4b6606e06259065de9b0b97"
     end
     on_arm do
       url "https://github.com/thoreinstein/aix/releases/download/v#{version}/aix_#{version}_linux_arm64.tar.gz"
-      sha256 "330d66766187354539c8c125d1d3beb33308b8503c4d489f5dd7b3c82081b11d"
+      sha256 "bbce3658f9297e9542b3cb2ab26cfa5eebf1f3b9f13fa48d5312a4650faa6e83"
     end
   end
 
